@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289253314881",
+    "project_id": "bharat-safar-app",
+    "storage_bucket": "bharat-safar-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289253314881:android:632b86fb67d7f6ea3651c0",
+        "android_client_info": {
+          "package_name": "com.example.bharat_safar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGhVZ2rICJbY8FCv7EoBbllfo0z4dj4yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

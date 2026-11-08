@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions | Bharat Safar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f9f6f0;
+            --text-main: #2b261f;
+            --text-muted: #615749;
+            --brand-primary: #b38b4d;
+            --brand-dark: #8c6730;
+            --sidebar-bg: #ffffff;
+            --border-color: #eadecc;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Modern split layout structure */
+        .sidebar {
+            width: 380px;
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 4px 0 24px rgba(140, 103, 48, 0.04);
+        }
+
+        .content-area {
+            margin-left: 380px;
+            flex: 1;
+            padding: 60px 80px;
+            max-width: 960px;
+        }
+
+        /* Exact reconstructed brand identity visual container */
+        .logo-container {
+            width: 180px;
+            height: 180px;
+            border: 4px solid var(--brand-primary);
+            border-radius: 40px;
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            box-shadow: inset 0 0 15px rgba(179, 139, 77, 0.1), 0 8px 20px rgba(140, 103, 48, 0.08);
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        /* CSS Representation of the logo landmarks */
+        .logo-placeholder-text {
+            font-size: 72px;
+            font-weight: 700;
+            color: var(--brand-dark);
+            line-height: 1;
+            letter-spacing: -2px;
+            position: relative;
+        }
+
+        .logo-details-hint {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--brand-primary);
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .app-name-hindi {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .app-name-english {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: var(--brand-dark);
+            text-transform: uppercase;
+            margin-bottom: 25px;
+        }
+
+        .app-tagline {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 400;
+            max-width: 240px;
+        }
+
+        /* Document Styling */
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 10px;
+        }
+
+        .meta-info {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        .meta-info strong {
+            color: var(--brand-dark);
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--brand-dark);
+            margin-top: 35px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        p, ul {
+            margin-bottom: 20px;
+            color: var(--text-main);
+            font-size: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 900px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                position: relative;
+                padding: 40px 20px;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .content-area {
+                margin-left: 0;
+                padding: 40px 20px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Left Sticky Pane with App Logo and Brand Information -->
+    <div class="sidebar">
+        <!-- Logo container styled exactly to match the user's uploaded token image -->
+        <div class="logo-container">
+            <!-- You can easily swap this placeholder structure for an actual <img> tag when hosting -->
+            <!-- <img src="your-logo-path.png" alt="Bharat Safar Logo" style="width:100%; height:100%; object-fit:contain;"> -->
+            <div class="logo-placeholder-text">BS</div>
+            <div class="logo-details-hint">☼ • 🏔️ • 🪶</div>
+        </div>
+        <div class="app-name-hindi">भारत सफर</div>
+        <div class="app-name-english">Bharat Safar</div>
+        <div class="app-tagline">Built for seamless travel across India.</div>
+    </div>
+
+    <!-- Right Pane holding the precise untouched legal code documentation structure -->
+    <div class="content-area">
+        <h1>Terms & Conditions</h1>
+        <div class="meta-info">
+            Operating rules and legal agreements for our travel platform<br><br>
+            <strong>Effective Date:</strong> November 8, 2026 &nbsp;&bull;&nbsp; <strong>Version:</strong> 2.0
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>Welcome to Bharat Safar. By accessing or using our mobile application or website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our services.</p>
+
+        <h2>2. Scope of Services</h2>
+        <p>Bharat Safar functions as a comprehensive digital aggregate travel platform across India. Our features allow users to:</p>
+        <ul>
+            <li>Search, discover, and plan routes across all Indian destinations via maps.</li>
+            <li>Book third-party transport services including buses, cars, bikes, and trains.</li>
+            <li>Browse and book hotel rooms and accommodations.</li>
+        </ul>
+
+        <h2>3. Third-Party Service Limitations</h2>
+        <p>Please note that Bharat Safar handles logistics reservation processing but does not own or operate any buses, rental cars, bikes, hotels, or train networks. All train inventory runs directly under official IRCTC rules. We are not liable for delayed trips, service cancellations, quality issues, or accidents caused by final service providers.</p>
+
+        <h2>4. User Accounts & Responsibilities</h2>
+        <p>To finalize ticket purchases or explore precise routes, you must provide valid credentials (ID proofs required under Indian law). You remain entirely responsible for ensuring the absolute precision of travel dates, seat preferences, passenger lists, and boarding nodes.</p>
+
+        <h2>5. Payment, Cancellation, & Refunds</h2>
+        <p>All financial gateways leverage authorized payment operators complying with RBI directives. Cancellations and refunds completely defer to individual operator rules (e.g., specific airlines, hotel policies, or Indian Railways rules). Approved refunds appear back in original source accounts within standard working timelines.</p>
+
+        <footer>
+            &copy; 2026 Bharat Safar. All rights reserved. Built for seamless travel across India.
+        </footer>
+    </div>
+
+</body>
+</html>
